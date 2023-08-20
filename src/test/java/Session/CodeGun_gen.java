@@ -8,7 +8,7 @@ public class CodeGun_gen {
 		  try (Playwright playwright = Playwright.create()) {
 		      Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions()
 		        .setHeadless(false));
-		      BrowserContext context = browser.newContext();
+
 		      Page page = browser.newPage();
 //		      page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Amazon.in Amazon.in https://www.amazon.in")).click();
 //		      page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Audible Download Audio Books")).click();
