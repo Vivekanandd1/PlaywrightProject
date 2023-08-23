@@ -19,6 +19,10 @@ public class VisibleElement {
 		for (int i=0;i<linkstext.size();i++) {
 			System.out.println(linkstext.get(i));
 		}
+		int imagecount = page.locator("xpath=//img>> visible=true").count();
+		System.out.println(imagecount);
+		
+		
 		
 	}
 
