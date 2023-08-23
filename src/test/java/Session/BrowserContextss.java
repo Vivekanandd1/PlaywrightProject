@@ -6,7 +6,7 @@ import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 
 
-public class BrowserContext {
+public class BrowserContextss {
 	public static void main(String[] args) {
 		Playwright playwright = Playwright.create();
 		Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
